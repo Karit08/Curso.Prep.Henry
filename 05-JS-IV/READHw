@@ -1,0 +1,48 @@
+Explicaciones de los siguientes conceptos:
+
+**  Objetos  **
+
+Es una colección de propiedades y una propiedad es una asociación entre un nombre y un valor. 
+Un ejemplo sería como un archivo(objeto) en el que hay expedientes de diferentes pacientes en el que se describe:
+
+    -Nombre del paciente (nombre o clave del objeto)
+    -Edad del paciente
+    -Sexo del paciente
+    -Padecimiento del paciente
+    -Descripción del padecimiento 
+
+**  Propiedades  **
+
+Es la asociación entre un nombre (o clave) y un valor.
+Continuando con el ejemplo nos podriamos referir a cada uno de los puntos que encontramos en un expediente de un paciente, ejm:
+
+    -Nombre del paciente(nombre o clave): Karla(Valor)
+
+**  Métodos  **
+
+Hace referencia a las funciones guardadas en un objeto. En estes caso con el ejemplo del expediente de un paciente es posible en un punto del expediente como Descripción del padecimiento, ordenar a los técnicos que se realice un estudio. 
+    
+    Descripción del padecimiento: Extudios por realizar
+                                 -Rx
+                                 -Tomografia
+                                 -Sangre 
+
+**  Bucle for…in  **
+
+La instrucción for...in itera una variable especificada sobre todas las propiedades enumerables de un objeto. 
+
+Puedes pensar en un bucle como una versión computarizada del juego en la que le dices a alguien que dé X pasos en una dirección y luego Y pasos en otra
+
+Un ejemplo sobre todo el archivo de todos los expedientes se va a buscar en Padecimiento del paciente  todos los padecimientos se devolveran todas las propiedad y el valor de cada uno a través de un reporte.
+
+** Notación de puntos vs notación de corchetes **
+
+Dot notation o notación de puntos: Se usa cuando SE CONOCE el nombre de la propiedad, con la notación se puede llamar al:
+ 
+    nombre del objeto + . + nombre de la clave;
+    Ejemplo: Expedientepaciente.Nombredelpaciente
+
+Bracket notation o notación de corchetes: Se usa cuando NO SE CONOCE el nombre de la propiedad, con la notación se llama a un elemento, se usan cadenas o números o variable que apunte a una cadena o números.
+
+    nombre del objeto['']
+    Expedientepaciente['Nombredelpaciente']

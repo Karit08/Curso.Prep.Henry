@@ -1,0 +1,18 @@
+Explicaciones de los siguientes conceptos:
+
+**  Arrays ***
+
+Es la colección de elementos a los que se puede acceder a través de un indice.
+Para entender mejor un ejemplo muy claro seria tomar en cuenta una lista de una salón de clase en la cuál se encontrara el nombre del alumno y el numero de lista.
+
+    Lista de salón de clase:
+    1. Karla Jimenez 
+    2. Javier Cerritos
+    3. Carlos Jimenez 
+    4. Maria Villegas
+    5. Francisco Jimenez 
+
+Tomando estos valores es fácil pasarlos a un Array y encontrarlos a través de un indice.
+
+    var lista2A = ['KarlaJimenez', 'JavierCerritos', 'CarlosJimenez', 'MariaVillegas', 'FranciscoJimenez']
+        indice       0                  1               2                  3                4

@@ -16,3 +16,10 @@ img{
     font-size: 18px;
     margin: 50px;
 }
+body{
+    background-image:url("https://img.freepik.com/foto-gratis/vegetales-puestos-izquierda-pizarra-negra_1220-685.jpg?w=826") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+}

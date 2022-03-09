@@ -5,7 +5,7 @@ Explicaciones de los siguientes conceptos:
 Es una colección de propiedades y una propiedad es una asociación entre un nombre y un valor. 
 Un ejemplo sería como un archivo(objeto) en el que hay expedientes de diferentes pacientes en el que se describe:
 
-    -Nombre del paciente (nombre o clave del objeto)
+    -Nombre del paciente (nombre o clave del objeto) y la descripción de este corresponderia al valor
     -Edad del paciente
     -Sexo del paciente
     -Padecimiento del paciente
@@ -45,4 +45,4 @@ Dot notation o notación de puntos: Se usa cuando SE CONOCE el nombre de la prop
 Bracket notation o notación de corchetes: Se usa cuando NO SE CONOCE el nombre de la propiedad, con la notación se llama a un elemento, se usan cadenas o números o variable que apunte a una cadena o números.
 
     nombre del objeto['']
-    Expedientepaciente['Nombredelpaciente']
+    Ejemplo: Expedientepaciente['Nombredelpaciente']
